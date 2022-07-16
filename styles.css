@@ -1,0 +1,359 @@
+header {
+    background-color: #181719;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 4px;
+}
+
+.nav-link{
+    transition: 1s ease;
+    display: inline-block;
+    padding-bottom:2px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+
+
+}
+
+.nav-link:hover{
+    background-position: 100% 100%; /*OR bottom right*/
+    background-size: 100% 2px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.comment{
+    display: flex;
+    justify-content: end;
+    width: 70%;
+    margin: -100px auto;
+    height: auto;
+  }
+  
+    a.read-more {
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      display: flex;
+      width: 120px;
+    }
+    a.read-more:hover{
+      color: #f44c36;
+    }
+  
+    .copyright {
+      color: white;
+      /* background-color: aqua; */
+      margin-top: 220px;
+      text-align: center;
+      font-family: monospace;
+      font-size: 18px;
+    }
+    .button {
+      display: flex;
+      /* background-color: aqua; */
+      width: 70%;
+    }
+    
+    .design {
+      color: white;
+      font-family: monospace;
+      font-size: 0.8vw;
+      text-align: center;
+    }
+    h3{ 
+      font-family: monospace;
+      font-size: 1vw;
+    }
+    .prof{
+      font-family: monospace;
+      font-size: 0.6vw;
+      
+    }
+    .username{
+      display: flex;
+      color: white;
+      width: 100%;
+      height: auto;
+    }
+  .profile-pic{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+    padding: 20px;
+  }
+  .card {
+    background:#181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 25%;
+  }
+  
+  .pic1 {
+    width: 100%;  
+    height: auto;
+  }
+  h2 {
+    font-family: monospace;
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+  }
+  
+  .service{
+    font-family: monospace;
+    font-size: 1.5vw;
+    font-weight: 400;
+    /* height: 100%; */
+  }
+  button {
+    width: 30%;
+    background: none;
+    color: white;
+    border: none;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+  }
+  .container2 {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      /* background-color: red; */
+      width: 80%;
+      margin: auto;
+  }
+  
+  .right {
+    height: 900px;
+    width: 820px; 
+    /* background-color: aquamarine; */
+    height: 200px;
+    margin-left: 20px;
+  }
+  .left1 {
+    width: 100%;
+    height: auto;
+    color: white;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  
+  }
+  html, body {
+    background-color: #181719;
+  
+  }
+  a.left{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+  
+  a.left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -5px;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    margin: auto;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-bottom: 50px;
+  }
+  ul {
+    display: flex;
+    /* background-color: red; */
+    width: 400px;
+    justify-content: space-between;
+  }
+  li{
+    list-style-type: none;
+    /* padding-left: 20px; */
+  
+  }
+  /* .nav-menu {
+    display: flex;
+  
+  } */
+  .logo{
+    font-family: crimson Pro;
+    border: 1px solid white;
+    
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 1028px) {
+
+.hamburger{
+    display: block;
+}
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+.nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    gap: 10;
+    flex-direction: column;
+    background-color: #181719;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.nav-items{
+    margin: 16px 0;
+}
+
+.nav-menu.active {
+    left: 0;
+}
+
+  .container2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* background-color: #f44c36; */
+  }
+  
+  h2{
+    font-size: 4vw;
+    font-weight: 700;
+    /* background-color: aqua; */
+  }
+  
+  .service {
+    font-size: 2vw;
+    /* background-color: aqua; */
+    width: 90%;  
+    height: auto;
+  }
+  
+  .left1{
+    justify-content: flex-start;
+    height: auto;
+    margin: auto;
+  }
+  .read-more{
+    font-size: 1vw;
+  }
+  .pic1{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .card{
+  width: 35%;
+  height: 15%;
+  /* margin-top: -50px; */
+  }
+  
+  .profile-pic{
+    width: 40px;
+    height: auto;
+  }
+  
+  h3 {
+    font-size: 2vw;
+  }
+  
+  .prof {
+    font-size: 1vw;
+  }
+  
+  .design {
+    font-size: 1.5vw;
+    margin-top: 0px;
+  }
+  
+  
+  }
